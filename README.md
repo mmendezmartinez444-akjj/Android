@@ -1,8 +1,7 @@
 
 
 ## Funcionalidades
-
-Las mismas que la versión base: listar, agregar, completar/pendiente,
+Listar, agregar, completar/pendiente,
 editar, eliminar y filtrar tareas pendientes. Lo único que cambia es cómo
 se presenta la información en la terminal.
 
