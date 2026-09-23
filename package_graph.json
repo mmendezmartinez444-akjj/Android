@@ -1,0 +1,21 @@
+{
+  "roots": [
+    "todo_console"
+  ],
+  "packages": [
+    {
+      "name": "todo_console",
+      "version": "1.0.0",
+      "dependencies": [],
+      "devDependencies": [
+        "lints"
+      ]
+    },
+    {
+      "name": "lints",
+      "version": "3.0.0",
+      "dependencies": []
+    }
+  ],
+  "configVersion": 1
+}
