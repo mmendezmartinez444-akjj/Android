@@ -1,27 +1,4 @@
-# Gestor de Tareas (To-Do List) - Proyecto Dart de Consola (interfaz con cajas)
 
-Variante del proyecto original con la interfaz de consola dibujada usando
-caracteres de dibujo de cajas (box-drawing: `┌ ─ ┐ │ └ ┘ ├ ┤ ┬ ┴ ┼ ╔ ═ ╗ ╚ ╝`).
-El menú se muestra dentro de un recuadro y la lista de tareas se presenta
-como una tabla con columnas (ID, Estado, Título, Descripción).
-
-## Estructura del proyecto
-
-```
-todo_console_cajas/
-├── pubspec.yaml
-├── bin/
-│   └── main.dart              # Interfaz de consola con cajas y tabla
-├── lib/
-│   ├── models/
-│   │   └── task.dart          # Clase Task (igual que en la versión base)
-│   ├── services/
-│   │   └── todo_service.dart  # Lógica de negocio y persistencia en JSON
-│   └── utils/
-│       └── console_ui.dart    # Dibuja cajas y tablas en la terminal
-└── data/
-    └── tasks.json             # Se genera automáticamente
-```
 
 ## Funcionalidades
 
